@@ -13,7 +13,7 @@ It should generate a message in mysql server log similar to this:
 2016-11-03T11:30:44.894384Z 2558213 [Note] Aborted connection 2558213 to db: 'COPERNICO' user: 'copernicodba' host: '10.242.1.26' (Got an error reading communication packets)
 ```
 
-The test executes a dummy `SELECT 1 statement
+The test executes a dummy `SELECT 1` statement
 
 ### Test environment:  
 - mybatis 3.4.1
